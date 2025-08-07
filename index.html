@@ -105,8 +105,10 @@
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
-            color: #667eea;
+            color: #333 !important;
             margin-right: 50px;
+            display: flex;
+            align-items: center;
         }
 
         .nav-links {
@@ -524,7 +526,9 @@
     <!-- Navigation -->
     <nav>
         <div class="container nav-content">
-            <div class="logo">Numa Labs</div>
+            <div class="logo">
+                <img src="images/logo.png" alt="Numa Labs Logo" style="height:40px;vertical-align:middle;">
+            </div>
             <div class="nav-links">
                 <a href="#team">Team</a>
                 <a href="#services">Services</a>
